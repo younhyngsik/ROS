@@ -3,6 +3,12 @@
 --------
 0720
 
+
+ros 환경 구축
+-WSL을 통한 vscode로 Ubuntu 접속
+ros2를 vscode를 통하여 기본적인 turtlesim 구현
+-topic, service, action과 같은 기초 패턴 구현
+
 CLI
 ros2 run => 실행 명령어
 ros2 node => 노드의 ~
