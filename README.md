@@ -139,4 +139,42 @@ action goal과 action result를 양방향으로 송수신하고 중간 과정인
 사용 예		센서 데이터, 로봇 상태, 좌표, 속도 명령		LED 제어, 모터 토크 on/off, 이동 경로 계산		목적지 이동, 물건 파지, 복합 업무
 
 
+------------------------
+0724
+action: IDL로 구현(goal, result, feedback) -> build
+msg 비교: topic, service, action의 각 특징 비교
+action_server의 노드 생성 -> Node class로 인자 넘겨서 순차처리
+action_client: 비동기 코드 => callback 함수 필요(response, result, feedback_callback)
+action_thread_server: action_server의 순차처리가 비효율적이므로 thread로 구동
+action_client의 cancel 요청 -> action_server에서 cancel
+				     <- 			  abort 전송: cancel과 다르게 result 바로 출력
 
+namespace: 하나의 노드로 여러개의 프로세스 구현 => 하나의 노드로 프로세스 만들 때 원래는 토픽과 프로세스 이름이 서로 동일 => 충돌
+-> 이를 방지하기 위해 namespace로 다른 이름의 토픽과 프로세스 생성 
+namespace => .launch로 생성
+
+tf2: /tf.static, /tf를 발행하는데 특화된 라이브러리 
+->x, y, z(linear), x, y, z, w(angular) 총 7개로 구성
+/tf.static => 한번 발행하면 DDS에 상주
+/tf => 계속 발행 -> 직전의 tf와만 연결되어야 하므로 Header.stamp 중요(시간 체크)
+-> turtlesim pose subscription -> tf 발행 
+
+
+
+
+
+
+
+URDF<xml> => 실제로 사용하는
+->joint_stat_publisher를 사용해
+1. tf 발행
+2. /robot_descriptor 토픽 
+로 riviz2에서 표현
+다만 기본적인 정보밖에 못 넣어서 시뮬에서 사용하기는 부적합(물리적 정보 부족)
+
+simulation(gzsim): SDF<xml> 사용
+
+
+#팔 추가해서 엘보우 구현(revolute)
+#05_add_arm.urdf
+#tf 발행해서 직접 동작 -> ros2 run tf2_basic move.u2d2 
