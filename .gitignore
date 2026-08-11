@@ -1,2 +1,8 @@
 *.pb
 *.pt
+build/
+install/
+log/
+__pycache__/
+.venv/
+open_manipulator_ws/
