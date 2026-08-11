@@ -1,0 +1,6 @@
+[ 14%] Built target copy_ui_headers
+[ 14%] Built target open_manipulator_x_gui_node_autogen_timestamp_deps
+[ 14%] Built target omx_f_gui_node_autogen_timestamp_deps
+[ 16%] Built target open_manipulator_x_gui_node_autogen
+[ 17%] Built target omx_f_gui_node_autogen
+[ 19%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o[0m

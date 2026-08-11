@@ -1,0 +1,11 @@
+[0.038s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14
+[0.335s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[9.701s] gmake[2]: *** wait: No child processes.  Stop.
+[9.702s] gmake[2]: *** Waiting for unfinished jobs....
+[9.702s] gmake[2]: *** wait: No child processes.  Stop.
+[9.702s] gmake[1]: *** wait: No child processes.  Stop.
+[9.702s] gmake[1]: *** Waiting for unfinished jobs....
+[9.702s] gmake[1]: *** wait: No child processes.  Stop.
+[9.702s] gmake: *** wait: No child processes.  Stop.
+[9.702s] gmake: *** Waiting for unfinished jobs....
+[9.702s] gmake: *** wait: No child processes.  Stop.

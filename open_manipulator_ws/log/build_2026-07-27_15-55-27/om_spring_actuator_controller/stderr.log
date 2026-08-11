@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/spring_actuator_controller.dir/build.make:76: CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/spring_actuator_controller.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

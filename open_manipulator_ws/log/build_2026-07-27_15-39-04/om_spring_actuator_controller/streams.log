@@ -1,0 +1,50 @@
+[0.059s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller
+[0.214s] -- The CXX compiler identification is GNU 13.3.0
+[0.324s] -- Detecting CXX compiler ABI info
+[0.573s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.587s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.902s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.164s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.383s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.411s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.926s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.006s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.012s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.054s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.159s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.245s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.249s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.270s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.925s] -- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.935s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[4.004s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[4.004s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[4.004s]   Lyrical Luth.
+[4.004s] 
+[4.004s]         Use tl/expected.hpp from libexpected-dev,
+[4.004s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[4.004s] Call Stack (most recent call first):
+[4.004s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.004s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[4.004s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[4.004s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[4.004s]   CMakeLists.txt:28 (find_package)
+[4.004s] 
+[4.005s] [0m
+[4.470s] -- Configuring done (4.4s)
+[4.524s] -- Generating done (0.0s)
+[4.542s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller
+[4.572s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller
+[4.572s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14
+[4.893s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller_parameters.yaml `[0m
+[6.080s] [ 50%] [34m[1mCreating deprecated header file /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller/include/spring_actuator_controller_parameters.hpp[0m
+[6.111s] [ 50%] Built target spring_actuator_controller_parameters
+[6.140s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m

@@ -1,0 +1,95 @@
+[0.068s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_gui -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_gui
+[0.527s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.528s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.528s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.528s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.645s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.650s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.089s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.195s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[1.877s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[1.947s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.977s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.989s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.989s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.989s]   Lyrical Luth.
+[1.989s] 
+[1.989s]         Use tl/expected.hpp from libexpected-dev,
+[1.989s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.989s] Call Stack (most recent call first):
+[1.989s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.989s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.989s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[1.989s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[1.997s]   /opt/ros/jazzy/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.997s]   /opt/ros/jazzy/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[1.997s]   CMakeLists.txt:21 (find_package)
+[1.997s] 
+[1.997s] [0m
+[1.997s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.179s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.145s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.597s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[3.600s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[3.648s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.713s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[4.465s] -- Configuring done (4.4s)
+[5.362s] -- Generating done (0.4s)
+[5.448s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui
+[5.557s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_gui -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_gui
+[5.558s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui -- -j14 -l14
+[5.827s] [ 14%] Built target copy_ui_headers
+[5.938s] [ 14%] Built target open_manipulator_x_gui_node_autogen_timestamp_deps
+[5.976s] [ 14%] Built target omy_3m_gui_node_autogen_timestamp_deps
+[6.001s] [ 14%] Built target omx_f_gui_node_autogen_timestamp_deps
+[6.033s] [ 14%] Built target omy_f3m_gui_node_autogen_timestamp_deps
+[6.162s] [ 16%] [34m[1mAutomatic MOC and UIC for target omx_f_gui_node[0m
+[6.197s] [ 17%] [34m[1mAutomatic MOC and UIC for target omy_3m_gui_node[0m
+[6.199s] [ 19%] [34m[1mAutomatic MOC and UIC for target omy_f3m_gui_node[0m
+[6.221s] [ 21%] [34m[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node[0m
+[6.334s] [ 21%] Built target omy_f3m_gui_node_autogen
+[6.357s] [ 21%] Built target omy_3m_gui_node_autogen
+[6.389s] [ 21%] Built target open_manipulator_x_gui_node_autogen
+[6.406s] [ 21%] Built target omx_f_gui_node_autogen
+[6.519s] [ 23%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main_window.cpp.o[0m
+[6.523s] [ 25%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/omy_f3m_gui_node_autogen/mocs_compilation.cpp.o[0m
+[6.524s] [ 26%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/qnode.cpp.o[0m
+[6.526s] [ 28%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main.cpp.o[0m
+[6.537s] [ 30%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/qnode.cpp.o[0m
+[6.537s] [ 32%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_main_window.cpp.o[0m
+[6.545s] [ 35%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_qnode.cpp.o[0m
+[6.556s] [ 37%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main_window.cpp.o[0m
+[6.556s] [ 39%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_main_window.cpp.o[0m
+[6.556s] [ 41%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/omy_3m_gui_node_autogen/mocs_compilation.cpp.o[0m
+[6.569s] [ 42%] [32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/omx_f_gui_node_autogen/mocs_compilation.cpp.o[0m
+[6.569s] [ 42%] [32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_qnode.cpp.o[0m
+[6.573s] [ 44%] [32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main.cpp.o[0m
+[6.673s] [ 46%] [32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/main.cpp.o[0m
+[6.726s] [ 48%] [32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/qnode.cpp.o[0m
+[6.745s] [ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o[0m
+[6.817s] [ 51%] [32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/main_window.cpp.o[0m
+[6.980s] [ 53%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o[0m
+[38.233s] gmake[2]: *** [CMakeFiles/open_manipulator_x_gui_node.dir/build.make:109: CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o] Interrupt
+[38.280s] gmake[2]: *** [CMakeFiles/omy_f3m_gui_node.dir/build.make:151: CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_main_window.cpp.o] Interrupt
+[38.280s] gmake[2]: *** [CMakeFiles/omy_f3m_gui_node.dir/build.make:123: CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main_window.cpp.o] Interrupt
+[38.280s] gmake[2]: *** [CMakeFiles/omy_f3m_gui_node.dir/build.make:137: CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/qnode.cpp.o] Interrupt
+[38.280s] gmake[2]: *** [CMakeFiles/omy_f3m_gui_node.dir/build.make:165: CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_qnode.cpp.o] Interrupt
+[38.280s] gmake[2]: *** [CMakeFiles/omy_f3m_gui_node.dir/build.make:109: CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omx_f_gui_node.dir/build.make:123: CMakeFiles/omx_f_gui_node.dir/src/omx_f/main_window.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omx_f_gui_node.dir/build.make:109: CMakeFiles/omx_f_gui_node.dir/src/omx_f/main.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omx_f_gui_node.dir/build.make:137: CMakeFiles/omx_f_gui_node.dir/src/omx_f/qnode.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omy_3m_gui_node.dir/build.make:123: CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main_window.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omy_3m_gui_node.dir/build.make:151: CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_main_window.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omy_3m_gui_node.dir/build.make:137: CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/qnode.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omy_3m_gui_node.dir/build.make:109: CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main.cpp.o] Interrupt
+[38.281s] gmake[2]: *** [CMakeFiles/omy_3m_gui_node.dir/build.make:165: CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_qnode.cpp.o] Interrupt
+[38.311s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/omy_f3m_gui_node.dir/all] Interrupt
+[38.312s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/omy_3m_gui_node.dir/all] Interrupt
+[38.313s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/omx_f_gui_node.dir/all] Interrupt
+[38.313s] gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/open_manipulator_x_gui_node.dir/all] Interrupt
+[38.313s] gmake: *** [Makefile:146: all] Interrupt

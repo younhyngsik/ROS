@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>gong_basic</name>
+  <name>ros_basic</name>
   <version>0.0.0</version>
   <description>gongju university ROS2 basic library</description>
   <maintainer email="freshmea@naver.com">choi su gil</maintainer>

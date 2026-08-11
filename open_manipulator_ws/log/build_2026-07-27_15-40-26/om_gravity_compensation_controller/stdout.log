@@ -1,0 +1,34 @@
+[ 50%] Built target gravity_compensation_controller_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgravity_compensation_controller.so[0m
+[100%] Built target gravity_compensation_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller//gravity_compensation_plugin.xml
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/gravity_compensation_controller.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/visibility_control.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/package_run_dependencies/om_gravity_compensation_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/parent_prefix_path/om_gravity_compensation_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.bash
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.zsh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/packages/om_gravity_compensation_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_gravity_compensation_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig-version.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.xml
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport.cmake
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport-release.cmake

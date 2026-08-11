@@ -1,0 +1,10 @@
+[0.038s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_gui -- -j14 -l14
+[0.332s] [ 14%] Built target copy_ui_headers
+[0.333s] [ 14%] Built target open_manipulator_x_gui_node_autogen_timestamp_deps
+[0.333s] [ 14%] Built target omx_f_gui_node_autogen_timestamp_deps
+[0.333s] [ 16%] Built target open_manipulator_x_gui_node_autogen
+[0.353s] [ 17%] Built target omx_f_gui_node_autogen
+[0.486s] [ 19%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o[0m
+[9.705s] gmake[2]: *** [CMakeFiles/open_manipulator_x_gui_node.dir/build.make:109: CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o] Interrupt
+[9.705s] gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/open_manipulator_x_gui_node.dir/all] Interrupt
+[9.706s] gmake: *** [Makefile:146: all] Interrupt

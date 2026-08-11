@@ -1,3 +1,17 @@
 {
-    "cmake.sourceDirectory": "/home/youn/ROS/ros_workspace/src/user_interface"
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/gong_basic/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/tf2_basic/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/user_interface/lib/python3.12/site-packages"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/gong_basic/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/tf2_basic/lib/python3.12/site-packages",
+    "${workspaceFolder}/ros_workspace/install/user_interface/lib/python3.12/site-packages"
+  ],
+  "python.analysis.stubPath": "${workspaceFolder}/typings",
+  "cmake.sourceDirectory": "/home/aa/ROS/ros_workspace/src/user_interface",
+  "python-envs.defaultEnvManager": "ms-python.python:venv"
 }

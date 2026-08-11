@@ -1,0 +1,1 @@
+/home/youn/ROS/open_manipulator_ws/build/open_manipulator_bringup/launch/omx_f_follower_ai_gazebo.launch.py

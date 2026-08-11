@@ -1,0 +1,51 @@
+[0.052s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster
+[0.080s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.372s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.384s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.470s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.844s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.917s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.919s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.948s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.988s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.131s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.197s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.936s] -- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.938s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.950s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.950s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.950s]   Lyrical Luth.
+[1.950s] 
+[1.950s]         Use tl/expected.hpp from libexpected-dev,
+[1.951s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.951s] Call Stack (most recent call first):
+[1.951s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.951s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.951s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[1.951s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[1.951s]   CMakeLists.txt:31 (find_package)
+[1.951s] 
+[1.951s] [0m
+[2.274s] -- Configuring done (2.2s)
+[2.334s] -- Generating done (0.0s)
+[2.343s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster
+[2.373s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster
+[2.374s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster -- -j14 -l14
+[2.821s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[2.822s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[38.157s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[38.178s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp:26[m[K,
+[38.181s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:28[m[K,
+[38.181s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:15[m[K:
+[38.191s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[38.191s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[38.191s]       |                                                                                                     [01;36m[K^[m[K
+[38.191s] 
+[38.242s] gmake[2]: *** [CMakeFiles/joint_trajectory_command_broadcaster.dir/build.make:76: CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o] Interrupt
+[38.321s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joint_trajectory_command_broadcaster.dir/all] Interrupt
+[38.321s] gmake: *** [Makefile:146: all] Interrupt

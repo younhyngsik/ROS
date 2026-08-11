@@ -1,0 +1,50 @@
+[0.057s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller
+[0.207s] -- The CXX compiler identification is GNU 13.3.0
+[0.387s] -- Detecting CXX compiler ABI info
+[0.623s] -- Detecting CXX compiler ABI info - done
+[0.637s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.637s] -- Detecting CXX compile features
+[0.638s] -- Detecting CXX compile features - done
+[0.646s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.938s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.078s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.156s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[1.170s] -- Found control_msgs: 5.9.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.363s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.382s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.824s] -- Found control_toolbox: 4.11.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.971s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.980s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.160s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.284s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.897s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[2.898s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[2.898s]   Lyrical Luth.
+[2.898s] 
+[2.898s]         Use tl/expected.hpp from libexpected-dev,
+[2.898s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[2.898s] Call Stack (most recent call first):
+[2.898s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.898s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[2.898s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.898s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[2.898s]   CMakeLists.txt:37 (find_package)
+[2.898s] 
+[2.898s] [0m
+[4.039s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.047s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.047s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.432s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[4.619s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[4.805s] -- Configuring done (4.7s)
+[4.854s] -- Generating done (0.0s)
+[4.869s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller
+[4.903s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller
+[4.905s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller -- -j14 -l14
+[5.481s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller_parameters.yaml `[0m
+[6.336s] [ 50%] [34m[1mCreating deprecated header file /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller/include/gravity_compensation_controller_parameters.hpp[0m
+[6.361s] [ 50%] Built target gravity_compensation_controller_parameters
+[6.395s] [ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m

@@ -1,0 +1,40 @@
+[0.061s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision
+[0.203s] -- The C compiler identification is GNU 13.3.0
+[0.445s] -- The CXX compiler identification is GNU 13.3.0
+[0.595s] -- Detecting C compiler ABI info
+[0.791s] -- Detecting C compiler ABI info - done
+[0.811s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.811s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.865s] -- Detecting CXX compiler ABI info
+[1.095s] -- Detecting CXX compiler ABI info - done
+[1.112s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.112s] -- Detecting CXX compile features
+[1.114s] -- Detecting CXX compile features - done
+[1.123s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.421s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.666s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.841s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.867s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.899s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.072s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.077s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.358s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.742s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.793s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.938s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.074s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[3.153s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.155s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.157s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.199s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[3.800s] -- Configuring done (3.7s)
+[3.881s] -- Generating done (0.0s)
+[3.903s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision
+[3.987s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision
+[3.988s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14
+[4.552s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m

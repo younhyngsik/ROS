@@ -1,0 +1,13 @@
+train: /home/youn/ROS/datasets/can_detection/train/images
+val: /home/youn/ROS/datasets/can_detection/valid/images
+test: /home/youn/ROS/datasets/can_detection/test/images
+
+nc: 5
+names: ['0', '1', '2', 'can', 'cans']
+
+roboflow:
+  workspace: fams-testing
+  project: can-d5wp7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fams-testing/can-d5wp7/dataset/1

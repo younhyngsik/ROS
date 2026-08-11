@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o[0m
+gmake[2]: *** [CMakeFiles/dynamixel_hardware_interface.dir/build.make:76: CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_hardware_interface.dir/build.make:90: CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_hardware_interface.dir/build.make:104: CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_hardware_interface.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,18 @@
+[0.038s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14
+[0.336s] [ 50%] Built target spring_actuator_controller_parameters
+[0.336s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[4.939s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[4.940s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp:26[m[K,
+[4.940s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller.hpp:34[m[K,
+[4.940s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:17[m[K:
+[4.940s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[4.940s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[4.940s]       |                                                                                                     [01;36m[K^[m[K
+[4.940s] 
+[9.703s] gmake[2]: *** [CMakeFiles/spring_actuator_controller.dir/build.make:76: CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o] Interrupt
+[9.705s] gmake[1]: *** wait: No child processes.  Stop.
+[9.708s] gmake[1]: *** Waiting for unfinished jobs....
+[9.709s] gmake[1]: *** wait: No child processes.  Stop.
+[9.709s] gmake: *** wait: No child processes.  Stop.
+[9.709s] gmake: *** Waiting for unfinished jobs....
+[9.710s] gmake: *** wait: No child processes.  Stop.

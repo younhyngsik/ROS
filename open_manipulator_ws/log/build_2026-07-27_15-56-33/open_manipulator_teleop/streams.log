@@ -1,0 +1,20 @@
+[2.003s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop': PYTHONPATH=/home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data
+[2.520s] running develop
+[2.800s] running egg_info
+[2.831s] writing open_manipulator_teleop.egg-info/PKG-INFO
+[2.831s] writing dependency_links to open_manipulator_teleop.egg-info/dependency_links.txt
+[2.832s] writing entry points to open_manipulator_teleop.egg-info/entry_points.txt
+[2.832s] writing requirements to open_manipulator_teleop.egg-info/requires.txt
+[2.832s] writing top-level names to open_manipulator_teleop.egg-info/top_level.txt
+[2.881s] reading manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[2.882s] writing manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[2.914s] running build_ext
+[2.914s] Creating /home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open-manipulator-teleop.egg-link (link to .)
+[2.915s] Installing omx_f_teleop script to /home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[2.916s] Installing omy_3m_teleop script to /home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[2.916s] Installing omy_f3m_teleop script to /home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[2.917s] Installing open_manipulator_x_teleop script to /home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[2.917s] 
+[2.917s] Installed /home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop
+[2.917s] running symlink_data
+[2.991s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop' returned '0': PYTHONPATH=/home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youn/ROS/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youn/ROS/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data

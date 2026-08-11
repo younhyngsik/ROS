@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/gravity_compensation_controller.dir/build.make:76: CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gravity_compensation_controller.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

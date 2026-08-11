@@ -1,0 +1,1 @@
+/home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_description/launch/omy_3m.launch.py

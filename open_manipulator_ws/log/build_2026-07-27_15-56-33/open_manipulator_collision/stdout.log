@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable self_collision_node[0m
+[100%] Built target self_collision_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+-- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml

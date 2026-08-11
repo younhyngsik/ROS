@@ -1,0 +1,7 @@
+[0.039s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14
+[0.490s] [ 50%] Built target spring_actuator_controller_parameters
+[0.490s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[19.757s] gmake[2]: *** [CMakeFiles/spring_actuator_controller.dir/build.make:76: CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o] Interrupt
+[19.760s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/spring_actuator_controller.dir/all] Interrupt
+[19.760s] gmake: *** [Makefile:146: all] Interrupt
+[19.880s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14

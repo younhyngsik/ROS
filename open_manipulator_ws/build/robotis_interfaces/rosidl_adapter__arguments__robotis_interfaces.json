@@ -1,0 +1,9 @@
+{
+  "package_name": "robotis_interfaces",
+  "non_idl_tuples": [
+    "/home/youn/ROS/open_manipulator_ws/src/robotis_interfaces:msg/HandJoints.msg",
+    "/home/youn/ROS/open_manipulator_ws/src/robotis_interfaces:msg/HandPressures.msg",
+    "/home/youn/ROS/open_manipulator_ws/src/robotis_interfaces:msg/MoveL.msg",
+    "/home/youn/ROS/open_manipulator_ws/src/robotis_interfaces:msg/TactileSensor.msg"
+  ]
+}

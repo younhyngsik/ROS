@@ -1,0 +1,13 @@
+train: /home/youn/ROS/datasets/paper_detection/train/images
+val: /home/youn/ROS/datasets/paper_detection/valid/images
+test: /home/youn/ROS/datasets/paper_detection/test/images
+
+nc: 2
+names: ['Paper', 'plastic-bottle']
+
+roboflow:
+  workspace: john-harold-arevalo-vr5xz
+  project: balutin-mo-ako
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/john-harold-arevalo-vr5xz/balutin-mo-ako/dataset/6

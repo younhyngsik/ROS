@@ -1,0 +1,16 @@
+[0.037s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster -- -j14 -l14
+[0.339s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[0.339s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[4.988s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[4.989s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp:26[m[K,
+[4.989s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:28[m[K,
+[4.989s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:15[m[K:
+[4.989s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[4.989s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[4.989s]       |                                                                                                     [01;36m[K^[m[K
+[4.989s] 
+[9.717s] gmake[2]: *** wait: No child processes.  Stop.
+[9.717s] gmake[2]: *** Waiting for unfinished jobs....
+[9.717s] gmake[2]: *** wait: No child processes.  Stop.
+[9.718s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joint_trajectory_command_broadcaster.dir/all] Error 2
+[9.718s] gmake: *** [Makefile:146: all] Interrupt

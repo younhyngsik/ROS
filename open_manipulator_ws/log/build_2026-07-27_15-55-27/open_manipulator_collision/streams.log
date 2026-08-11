@@ -1,0 +1,6 @@
+[0.038s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14
+[0.491s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[19.727s] gmake[2]: *** [CMakeFiles/self_collision_node.dir/build.make:76: CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o] Interrupt
+[19.731s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/self_collision_node.dir/all] Interrupt
+[19.731s] gmake: *** [Makefile:146: all] Interrupt
+[19.864s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-33304b2c594ddc21bac6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "robotis_interfaces__py",
+					"jsonFile" : "directory-robotis_interfaces__py-Release-a84a495fd08d51d58d2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/youn/ROS/open_manipulator_ws/build/robotis_interfaces/robotis_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robotis_interfaces__rs",
+					"jsonFile" : "directory-robotis_interfaces__rs-Release-5a4d858aadb515b12fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/youn/ROS/open_manipulator_ws/build/robotis_interfaces/robotis_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robotis_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotis_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotis_interfaces_egg-Release-dc8c8d33883c014ae3b2.json",
+					"name" : "ament_cmake_python_build_robotis_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robotis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robotis_interfaces-Release-0a05b603d7c045cce195.json",
+					"name" : "ament_cmake_python_symlink_robotis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces-Release-7189b7e3f503137e77d5.json",
+					"name" : "robotis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__cpp-Release-25b76772ee6e5aac8ff9.json",
+					"name" : "robotis_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotis_interfaces__py::@43fc588b4afeb634e17c",
+					"jsonFile" : "target-robotis_interfaces__py-Release-664c60e06b25ed59b874.json",
+					"name" : "robotis_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_c-Release-220fd93036c0812e7ce5.json",
+					"name" : "robotis_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_py-Release-a8d6ccc8a1353310ba2a.json",
+					"name" : "robotis_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_generator_type_description-Release-266db2e15372cd30f472.json",
+					"name" : "robotis_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_c-Release-e277ae2ef9bec4135044.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_cpp-Release-a87fc53dae3a21ccbd57.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_fastrtps_c-Release-ee687640c7a6b39ec4b1.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_fastrtps_cpp-Release-14e969b85cc04c2cd37d.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_introspection_c-Release-b7636b6ac4bedf86b4d7.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces__rosidl_typesupport_introspection_cpp-Release-7d735c841dae72024928.json",
+					"name" : "robotis_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robotis_interfaces__rs::@2f39cbd76e2fddbbe73d",
+					"jsonFile" : "target-robotis_interfaces__rs-Release-0688c63b0aad201b67c0.json",
+					"name" : "robotis_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_c-Release-fc1fc5afc5ff31650dd8.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_fastrtps_c-Release-7d4d62d640fa87d5448f.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_s__rosidl_typesupport_introspection_c-Release-e993e6781d5cb9e7470b.json",
+					"name" : "robotis_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotis_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotis_interfaces_uninstall-Release-3667c49af757fc5f5e2d.json",
+					"name" : "robotis_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-44882759a517e6166291.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/youn/ROS/open_manipulator_ws/build/robotis_interfaces",
+		"source" : "/home/youn/ROS/open_manipulator_ws/src/robotis_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

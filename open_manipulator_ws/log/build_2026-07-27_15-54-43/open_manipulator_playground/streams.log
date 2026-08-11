@@ -1,0 +1,52 @@
+[0.202s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_playground': AMENT_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:/home/youn/ROS/ros_workspace/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy LD_LIBRARY_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_playground -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground
+[0.296s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.194s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.209s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.254s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.498s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.527s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.588s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.627s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.626s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.818s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.832s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.679s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[4.679s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[4.679s]   Lyrical Luth.
+[4.679s] 
+[4.679s]         Use tl/expected.hpp from libexpected-dev,
+[4.679s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[4.679s] Call Stack (most recent call first):
+[4.679s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.680s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[4.680s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[4.680s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[4.680s]   /opt/ros/jazzy/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.680s]   /opt/ros/jazzy/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[4.680s]   /opt/ros/jazzy/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.680s]   /opt/ros/jazzy/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[4.680s]   CMakeLists.txt:15 (find_package)
+[4.680s] 
+[4.680s] [0m
+[4.699s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[5.116s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[6.047s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[6.151s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[8.950s] -- Configuring done (8.6s)
+[9.798s] -- Generating done (0.5s)
+[9.894s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/open_manipulator_playground
+[10.279s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_playground' returned '0': AMENT_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:/home/youn/ROS/ros_workspace/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy LD_LIBRARY_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/open_manipulator_playground -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground
+[10.539s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_playground': AMENT_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces:/home/youn/ROS/ros_workspace/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy LD_LIBRARY_PATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/youn/ROS/open_manipulator_ws/install/robotis_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_playground -- -j14 -l14
+[11.782s] [ 16%] [32mBuilding CXX object CMakeFiles/omy_f3m_hello_moveit.dir/src/omy_f3m_hello_moveit.cpp.o[0m
+[12.065s] [ 33%] [32mBuilding CXX object CMakeFiles/omy_3m_hello_moveit.dir/src/omy_3m_hello_moveit.cpp.o[0m
+[12.065s] [ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_hello_moveit.dir/src/open_manipulator_x_hello_moveit.cpp.o[0m
+[26.641s] gmake[2]: *** [CMakeFiles/omy_f3m_hello_moveit.dir/build.make:76: CMakeFiles/omy_f3m_hello_moveit.dir/src/omy_f3m_hello_moveit.cpp.o] Interrupt
+[26.676s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/omy_f3m_hello_moveit.dir/all] Interrupt
+[26.676s] gmake[2]: *** [CMakeFiles/open_manipulator_x_hello_moveit.dir/build.make:76: CMakeFiles/open_manipulator_x_hello_moveit.dir/src/open_manipulator_x_hello_moveit.cpp.o] Interrupt
+[26.677s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/open_manipulator_x_hello_moveit.dir/all] Interrupt
+[26.685s] gmake[2]: *** [CMakeFiles/omy_3m_hello_moveit.dir/build.make:76: CMakeFiles/omy_3m_hello_moveit.dir/src/omy_3m_hello_moveit.cpp.o] Interrupt
+[26.685s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/omy_3m_hello_moveit.dir/all] Interrupt
+[26.685s] gmake: *** [Makefile:146: all] Interrupt

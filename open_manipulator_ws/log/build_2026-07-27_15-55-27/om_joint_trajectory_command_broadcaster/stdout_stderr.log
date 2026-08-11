@@ -1,0 +1,5 @@
+[ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+gmake[2]: *** [CMakeFiles/joint_trajectory_command_broadcaster.dir/build.make:76: CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joint_trajectory_command_broadcaster.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

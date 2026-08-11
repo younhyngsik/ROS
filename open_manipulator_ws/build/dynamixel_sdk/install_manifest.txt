@@ -1,0 +1,3 @@
+/home/youn/ROS/open_manipulator_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+/home/youn/ROS/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+/home/youn/ROS/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-release.cmake

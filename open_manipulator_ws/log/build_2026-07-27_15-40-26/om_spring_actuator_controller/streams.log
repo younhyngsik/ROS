@@ -1,0 +1,46 @@
+[0.007s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14
+[0.047s] [ 50%] Built target spring_actuator_controller_parameters
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[1.858s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[1.859s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp:26[m[K,
+[1.859s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller.hpp:34[m[K,
+[1.859s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_spring_actuator_controller/src/spring_actuator_controller.cpp:17[m[K:
+[1.859s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[1.859s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[1.859s]       |                                                                                                     [01;36m[K^[m[K
+[1.859s] 
+[4.485s] [100%] [32m[1mLinking CXX shared library libspring_actuator_controller.so[0m
+[4.613s] [100%] Built target spring_actuator_controller
+[4.620s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller -- -j14 -l14
+[4.622s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller
+[4.628s] -- Install configuration: "Release"
+[4.629s] -- Execute custom install script
+[4.629s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp
+[4.636s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller//spring_actuator_plugin.xml
+[4.642s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/spring_actuator_controller.hpp
+[4.647s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/visibility_control.h
+[4.653s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.sh
+[4.659s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.dsv
+[4.664s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/package_run_dependencies/om_spring_actuator_controller
+[4.669s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/parent_prefix_path/om_spring_actuator_controller
+[4.676s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.sh
+[4.681s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.dsv
+[4.687s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.sh
+[4.694s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.dsv
+[4.699s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.bash
+[4.706s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.sh
+[4.712s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.zsh
+[4.717s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.dsv
+[4.723s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.dsv
+[4.729s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/packages/om_spring_actuator_controller
+[4.735s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_spring_actuator_controller
+[4.741s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.746s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_targets-extras.cmake
+[4.753s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig.cmake
+[4.758s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig-version.cmake
+[4.764s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.xml
+[4.770s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so
+[4.770s] -- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so" to ""
+[4.772s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport.cmake
+[4.772s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport-release.cmake
+[4.774s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller

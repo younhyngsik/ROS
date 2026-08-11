@@ -1,0 +1,1 @@
+/home/youn/ROS/open_manipulator_ws/build/open_manipulator_bringup/launch/omx_l_leader_ai.launch.py

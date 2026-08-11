@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[12.113s] [100%] [32m[1mLinking CXX executable self_collision_node[0m
+[12.307s] [100%] Built target self_collision_node
+[12.314s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision -- -j14 -l14
+[12.316s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision
+[12.322s] -- Install configuration: "Release"
+[12.322s] -- Execute custom install script
+[12.323s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+[12.330s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+[12.337s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+[12.343s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+[12.349s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+[12.356s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+[12.362s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+[12.368s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+[12.374s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+[12.381s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+[12.386s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+[12.392s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+[12.398s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+[12.403s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+[12.408s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+[12.414s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+[12.420s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+[12.425s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.431s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.437s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+[12.442s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+[12.448s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+[12.454s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml
+[12.461s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/open_manipulator_ws/install/open_manipulator_bringup:/home/youn/ROS/ros_workspace/install/open_manipulator_teleop:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/gong_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/open_manipulator_collision

@@ -1,0 +1,43 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_hello_moveit.dir/src/open_manipulator_x_hello_moveit.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable open_manipulator_x_hello_moveit[0m
+[ 33%] Built target open_manipulator_x_hello_moveit
+[ 50%] [32mBuilding CXX object CMakeFiles/omy_f3m_hello_moveit.dir/src/omy_f3m_hello_moveit.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable omy_f3m_hello_moveit[0m
+[ 66%] Built target omy_f3m_hello_moveit
+[ 83%] [32mBuilding CXX object CMakeFiles/omy_3m_hello_moveit.dir/src/omy_3m_hello_moveit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable omy_3m_hello_moveit[0m
+[100%] Built target omy_3m_hello_moveit
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/include/open_manipulator_playground/omy_3m_hello_moveit.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/include/open_manipulator_playground/omy_f3m_hello_moveit.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/include/open_manipulator_playground/open_manipulator_x_hello_moveit.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/shape_detector_node.py
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/omx_trajectory_controller_node.py
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/launch/omx_drawing.launch.py
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/images/square.png
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_playground
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_playground
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/environment/ament_prefix_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/environment/ament_prefix_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/environment/path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/environment/path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.bash
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.zsh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/local_setup.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/package.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/ament_index/resource_index/packages/open_manipulator_playground
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/open_manipulator_playgroundConfig.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/open_manipulator_playgroundConfig-version.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/package.xml
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/open_manipulator_x_hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/open_manipulator_x_hello_moveit" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/omy_f3m_hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/omy_f3m_hello_moveit" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/omy_3m_hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/lib/open_manipulator_playground/omy_3m_hello_moveit" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/export_open_manipulator_playgroundExport.cmake
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/open_manipulator_playground/share/open_manipulator_playground/cmake/export_open_manipulator_playgroundExport-release.cmake

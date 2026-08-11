@@ -1,0 +1,7 @@
+[  1%] Built target robotis_interfaces__rosidl_generator_type_description
+[  3%] Built target robotis_interfaces__rs
+[ 24%] Built target robotis_interfaces__rosidl_generator_c
+[ 26%] [32mBuilding CXX object CMakeFiles/robotis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_interfaces/msg/detail/tactile_sensor__type_support_c.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library librobotis_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 33%] Built target robotis_interfaces__rosidl_typesupport_fastrtps_c
+[ 35%] Built target robotis_interfaces__cpp

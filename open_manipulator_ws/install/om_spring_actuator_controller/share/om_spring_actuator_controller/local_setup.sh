@@ -1,0 +1,1 @@
+/home/youn/ROS/open_manipulator_ws/build/om_spring_actuator_controller/ament_cmake_environment_hooks/local_setup.sh

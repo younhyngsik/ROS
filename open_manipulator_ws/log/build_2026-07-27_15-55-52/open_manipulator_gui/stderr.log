@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/open_manipulator_x_gui_node.dir/build.make:109: CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/open_manipulator_x_gui_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

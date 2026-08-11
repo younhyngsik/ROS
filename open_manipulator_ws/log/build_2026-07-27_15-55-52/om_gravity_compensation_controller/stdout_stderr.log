@@ -1,0 +1,17 @@
+[ 50%] Built target gravity_compensation_controller_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller.hpp:46[m[K,
+                 from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                     [01;36m[K^[m[K
+
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gravity_compensation_controller.dir/all] Error 2
+gmake: *** wait: No child processes.  Stop.
+gmake: *** Waiting for unfinished jobs....
+gmake: *** wait: No child processes.  Stop.

@@ -1,0 +1,34 @@
+[ 50%] Built target spring_actuator_controller_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/spring_actuator_controller.dir/src/spring_actuator_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libspring_actuator_controller.so[0m
+[100%] Built target spring_actuator_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/om_spring_actuator_controller/spring_actuator_controller_parameters.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller//spring_actuator_plugin.xml
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/spring_actuator_controller.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/include/spring_actuator_controller/spring_actuator_controller/visibility_control.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/library_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/package_run_dependencies/om_spring_actuator_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/parent_prefix_path/om_spring_actuator_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/environment/path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.bash
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.zsh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/local_setup.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/packages/om_spring_actuator_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_spring_actuator_controller
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/om_spring_actuator_controllerConfig-version.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/package.xml
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/lib/libspring_actuator_controller.so" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport.cmake
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_spring_actuator_controller/share/om_spring_actuator_controller/cmake/export_spring_actuator_controllerExport-release.cmake

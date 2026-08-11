@@ -1,0 +1,34 @@
+[ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libjoint_trajectory_command_broadcaster.so[0m
+[100%] Built target joint_trajectory_command_broadcaster
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster//joint_trajectory_command_plugin.xml
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/visibility_control.h
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/package_run_dependencies/om_joint_trajectory_command_broadcaster
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/parent_prefix_path/om_joint_trajectory_command_broadcaster
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.bash
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.sh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.zsh
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.dsv
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/packages/om_joint_trajectory_command_broadcaster
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_joint_trajectory_command_broadcaster
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig-version.cmake
+-- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.xml
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so
+-- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so" to ""
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport.cmake
+-- Installing: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport-release.cmake

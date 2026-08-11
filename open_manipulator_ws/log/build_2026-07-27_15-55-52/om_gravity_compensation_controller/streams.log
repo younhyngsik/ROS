@@ -1,0 +1,18 @@
+[0.037s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller -- -j14 -l14
+[0.338s] [ 50%] Built target gravity_compensation_controller_parameters
+[0.338s] [ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m
+[5.939s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[5.939s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp:26[m[K,
+[5.940s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller.hpp:46[m[K,
+[5.940s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller.cpp:15[m[K:
+[5.940s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[5.940s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[5.940s]       |                                                                                                     [01;36m[K^[m[K
+[5.940s] 
+[9.715s] gmake[2]: *** wait: No child processes.  Stop.
+[9.716s] gmake[2]: *** Waiting for unfinished jobs....
+[9.716s] gmake[2]: *** wait: No child processes.  Stop.
+[9.716s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gravity_compensation_controller.dir/all] Error 2
+[9.716s] gmake: *** wait: No child processes.  Stop.
+[9.716s] gmake: *** Waiting for unfinished jobs....
+[9.717s] gmake: *** wait: No child processes.  Stop.

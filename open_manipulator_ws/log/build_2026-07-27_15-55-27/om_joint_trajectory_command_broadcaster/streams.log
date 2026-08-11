@@ -1,0 +1,7 @@
+[0.039s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster -- -j14 -l14
+[0.493s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[0.494s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[19.708s] gmake[2]: *** [CMakeFiles/joint_trajectory_command_broadcaster.dir/build.make:76: CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o] Interrupt
+[19.712s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joint_trajectory_command_broadcaster.dir/all] Interrupt
+[19.758s] gmake: *** [Makefile:146: all] Interrupt
+[19.797s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster -- -j14 -l14

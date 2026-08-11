@@ -1,0 +1,83 @@
+[0.052s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_BUILD_TYPE=R -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster
+[0.077s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.328s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.339s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.808s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.854s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.877s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.885s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.940s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.950s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.247s] -- Found generate_parameter_library: 0.7.3 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.247s] -- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.254s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[1.254s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[1.254s]   Lyrical Luth.
+[1.254s] 
+[1.254s]         Use tl/expected.hpp from libexpected-dev,
+[1.254s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[1.254s] Call Stack (most recent call first):
+[1.254s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.254s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[1.254s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)
+[1.254s]   /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)
+[1.254s]   CMakeLists.txt:31 (find_package)
+[1.254s] 
+[1.254s] [0m
+[1.401s] -- Configuring done (1.3s)
+[1.444s] -- Generating done (0.0s)
+[1.452s] -- Build files have been written to: /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster
+[1.473s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake /home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster -DCMAKE_BUILD_TYPE=R -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster
+[1.475s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster
+[1.733s] [ 50%] Built target joint_trajectory_command_broadcaster_parameters
+[1.734s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_trajectory_command_broadcaster.dir/src/joint_trajectory_command_broadcaster.cpp.o[0m
+[5.943s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[5.943s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp:26[m[K,
+[5.943s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp:28[m[K,
+[5.944s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/src/joint_trajectory_command_broadcaster.cpp:15[m[K:
+[5.944s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[5.944s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[5.944s]       |                                                                                                     [01;36m[K^[m[K
+[5.944s] 
+[16.918s] [100%] [32m[1mLinking CXX shared library libjoint_trajectory_command_broadcaster.so[0m
+[17.499s] [100%] Built target joint_trajectory_command_broadcaster
+[17.515s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster
+[17.517s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster
+[17.530s] -- Install configuration: "R"
+[17.530s] -- Execute custom install script
+[17.534s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/om_joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster_parameters.hpp
+[17.534s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster//joint_trajectory_command_plugin.xml
+[17.536s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster.hpp
+[17.536s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/include/joint_trajectory_command_broadcaster/joint_trajectory_command_broadcaster/visibility_control.h
+[17.537s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.sh
+[17.538s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/library_path.dsv
+[17.539s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/package_run_dependencies/om_joint_trajectory_command_broadcaster
+[17.540s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/parent_prefix_path/om_joint_trajectory_command_broadcaster
+[17.540s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.sh
+[17.541s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/ament_prefix_path.dsv
+[17.541s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.sh
+[17.542s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/environment/path.dsv
+[17.543s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.bash
+[17.543s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.sh
+[17.544s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.zsh
+[17.544s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/local_setup.dsv
+[17.545s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.dsv
+[17.559s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/packages/om_joint_trajectory_command_broadcaster
+[17.559s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_joint_trajectory_command_broadcaster
+[17.560s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.561s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[17.562s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig.cmake
+[17.562s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/om_joint_trajectory_command_broadcasterConfig-version.cmake
+[17.563s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/package.xml
+[17.564s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so
+[17.569s] -- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib/libjoint_trajectory_command_broadcaster.so" to ""
+[17.569s] -- Up-to-date: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport.cmake
+[17.570s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/share/om_joint_trajectory_command_broadcaster/cmake/export_joint_trajectory_command_broadcasterExport-r.cmake
+[17.573s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster

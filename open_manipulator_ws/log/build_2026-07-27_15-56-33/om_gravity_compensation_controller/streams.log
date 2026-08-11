@@ -1,0 +1,46 @@
+[0.042s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller
+[0.125s] [ 50%] Built target gravity_compensation_controller_parameters
+[0.170s] [ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m
+[6.518s] In file included from [01m[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[6.519s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp:26[m[K,
+[6.519s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller.hpp:46[m[K,
+[6.519s]                  from [01m[K/home/youn/ROS/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller.cpp:15[m[K:
+[6.519s] [01m[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[6.519s]    18 | rom libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[6.519s]       |                                                                                                     [01;36m[K^[m[K
+[6.519s] 
+[29.645s] [100%] [32m[1mLinking CXX shared library libgravity_compensation_controller.so[0m
+[30.031s] [100%] Built target gravity_compensation_controller
+[30.049s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller
+[30.050s] Invoking command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller
+[30.061s] -- Install configuration: "Release"
+[30.062s] -- Execute custom install script
+[30.064s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp
+[30.064s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller//gravity_compensation_plugin.xml
+[30.066s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/gravity_compensation_controller.hpp
+[30.067s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/visibility_control.h
+[30.068s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.sh
+[30.068s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.dsv
+[30.070s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/package_run_dependencies/om_gravity_compensation_controller
+[30.071s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/parent_prefix_path/om_gravity_compensation_controller
+[30.072s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.sh
+[30.073s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.dsv
+[30.073s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.sh
+[30.074s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.dsv
+[30.074s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.bash
+[30.075s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.sh
+[30.075s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.zsh
+[30.075s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.dsv
+[30.075s] -- Symlinking: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.dsv
+[30.094s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/packages/om_gravity_compensation_controller
+[30.095s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_gravity_compensation_controller
+[30.096s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.096s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_targets-extras.cmake
+[30.096s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig.cmake
+[30.097s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig-version.cmake
+[30.097s] -- Up-to-date symlink: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.xml
+[30.098s] -- Installing: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so
+[30.100s] -- Set non-toolchain portion of runtime path of "/home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so" to ""
+[30.101s] -- Up-to-date: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport.cmake
+[30.101s] -- Up-to-date: /home/youn/ROS/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport-release.cmake
+[30.107s] Invoked command in '/home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youn/ROS/ros_workspace/install/ros_basic:/home/youn/ROS/ros_workspace/install/tf2_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/youn/ROS/open_manipulator_ws/build/om_gravity_compensation_controller

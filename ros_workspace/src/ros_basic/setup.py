@@ -35,6 +35,7 @@ setup(
             "time_pub = ros_basic.time_pub:main",
             "time_sub = ros_basic.time_sub:main",
             "mv_turtle = ros_basic.mv_turtle:main",
+            "mv_turtle_ns = ros_basic.mv_turtle_ns:main",
             "qos_test_pub = ros_basic.qos_test_pub:main",
             "qos_test_sub = ros_basic.qos_test_sub:main",
             "user_int_pub = ros_basic.user_int_pub:main",
@@ -43,6 +44,9 @@ setup(
             "service_client = ros_basic.service_client:main",
             "my_param = ros_basic.my_param:main",
             "param_async = ros_basic.param_async:main",
+            "action_server = ros_basic.action_server:main",
+            "action_client = ros_basic.action_client:main",
+            "action_thread_server = ros_basic.action_thread_server:main",
         ],
     },
 )

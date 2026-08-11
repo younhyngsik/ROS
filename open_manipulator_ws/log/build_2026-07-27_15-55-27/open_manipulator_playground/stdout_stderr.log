@@ -1,0 +1,10 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/omy_3m_hello_moveit.dir/src/omy_3m_hello_moveit.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/omy_f3m_hello_moveit.dir/src/omy_f3m_hello_moveit.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_hello_moveit.dir/src/open_manipulator_x_hello_moveit.cpp.o[0m
+gmake[2]: *** [CMakeFiles/omy_f3m_hello_moveit.dir/build.make:76: CMakeFiles/omy_f3m_hello_moveit.dir/src/omy_f3m_hello_moveit.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/open_manipulator_x_hello_moveit.dir/build.make:76: CMakeFiles/open_manipulator_x_hello_moveit.dir/src/open_manipulator_x_hello_moveit.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/omy_3m_hello_moveit.dir/build.make:76: CMakeFiles/omy_3m_hello_moveit.dir/src/omy_3m_hello_moveit.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/omy_f3m_hello_moveit.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/omy_3m_hello_moveit.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/open_manipulator_x_hello_moveit.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
