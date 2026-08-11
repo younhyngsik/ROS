@@ -30,9 +30,12 @@ except Exception as e:
 
 # 2. 카메라 설정 (V4L2 사용)
 cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+
+cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)   # 해상도 가로
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)  # 해상도 세로
+cap.set(cv2.CAP_PROP_FPS, 30)             # 프레임 레이트 30fps
+
 
 if not cap.isOpened():
     raise RuntimeError("카메라를 열 수 없습니다.")
